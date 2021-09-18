@@ -5,9 +5,77 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: cadetblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  justify-self: center;
+
+}
+.add-box input{
+  padding:10px;
+  width: 450px;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+}
+.add-box input:hover{
+  padding:10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.add-box button{
+  padding:10px;
+  background-color: black;
+  color: azure;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.action-box{
+  display: inline;
+  margin-left: auto;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.list-item{
+  background-color: coral;
+  padding:15px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+}
+.todo{
+  background-color: white;
+  border-radius: 5px;
+}
+.todo-head{
+  text-align: center;
+  font-size: 36px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: #444;
+}
+.text{
+  word-wrap: break-word;
+  max-width: 65%;
+  justify-self: center;
+}
+.action-box{
+  max-width: 35%;
+}
+.edit{
+  margin-right: 5px;
 }
